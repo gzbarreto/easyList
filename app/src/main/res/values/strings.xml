@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EasyList</string>
+
+    <string name="navigation_compras">Compras</string>
+    <string name="navigation_listas">Listas</string>
+    <string name="navigation_graficos">Gráficos</string>
+    <string name="nenhuma_lista_cadastrada">Você ainda não tem nenhuma lista cadastrada</string>
+
+
+</resources>

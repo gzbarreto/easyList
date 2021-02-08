@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/navigation_compras"
+            android:enabled="true"
+            android:visible="true"
+            android:icon="@drawable/ic_compras"
+            android:title="@string/navigation_compras"/>
+
+        <item
+            android:id="@+id/navigation_listas"
+            android:enabled="true"
+            android:visible="true"
+            android:icon="@drawable/ic_lista"
+            android:title="@string/navigation_listas"/>
+
+        <item
+            android:id="@+id/navigation_graficos"
+            android:enabled="true"
+            android:visible="true"
+            android:icon="@drawable/ic_chart"
+            android:title="@string/navigation_graficos"/>
+
+</menu>
