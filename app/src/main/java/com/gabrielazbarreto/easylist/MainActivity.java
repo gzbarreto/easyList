@@ -8,13 +8,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
+import com.gabrielazbarreto.easylist.emptyfragments.SemComprasTextoFragment;
+import com.gabrielazbarreto.easylist.emptyfragments.SemGraficoTextoFragment;
+import com.gabrielazbarreto.easylist.emptyfragments.SemListaTextoFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private FrameLayout flContainerForFragment;
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_listas:
                     //SemListaTextoFragment semLista = new SemListaTextoFragment();
-                    NewProductFragment novoProduto = new NewProductFragment();
+                    NovoProdutoFragment novoProduto = new NovoProdutoFragment();
                     managerFragment(novoProduto, "SEM_LISTA");
                     return true;
                 case R.id.navigation_compras:

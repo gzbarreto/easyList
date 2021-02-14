@@ -1,4 +1,4 @@
-package com.gabrielazbarreto.easylist;
+package com.gabrielazbarreto.easylist.emptyfragments;
 
 import android.os.Bundle;
 
@@ -8,12 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.gabrielazbarreto.easylist.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link SemGraficoTextoFragment#newInstance} factory method to
+ * Use the {@link SemListaTextoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SemGraficoTextoFragment extends Fragment {
+public class SemListaTextoFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +26,7 @@ public class SemGraficoTextoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public SemGraficoTextoFragment() {
+    public SemListaTextoFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +36,11 @@ public class SemGraficoTextoFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SemGraficoTextoFragment.
+     * @return A new instance of fragment NoListTextFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SemGraficoTextoFragment newInstance(String param1, String param2) {
-        SemGraficoTextoFragment fragment = new SemGraficoTextoFragment();
+    public static SemListaTextoFragment newInstance(String param1, String param2) {
+        SemListaTextoFragment fragment = new SemListaTextoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +61,6 @@ public class SemGraficoTextoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sem_grafico_texto, container, false);
+        return inflater.inflate(R.layout.fragment_sem_lista_texto, container, false);
     }
 }
