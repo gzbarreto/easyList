@@ -7,6 +7,14 @@
     <string name="nenhuma_lista_cadastrada">Você ainda não possui nenhuma lista cadastrada</string>
     <string name="nenhuma_compra">Você ainda não realizou nenhuma compra</string>
     <string name="nenhum_grafico">Você ainda não realizou nenhuma comparação</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preco">Preço</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="nome">Nome</string>
+    <string name="categoria">Categoria</string>
+    <string name="moeda">R$</string>
+    <string name="adicionar">Adicionar</string>
 
 
 </resources>

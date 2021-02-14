@@ -40,8 +40,9 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_listas:
-                    SemListaTextoFragment semLista = new SemListaTextoFragment();
-                    managerFragment(semLista, "SEM_LISTA");
+                    //SemListaTextoFragment semLista = new SemListaTextoFragment();
+                    NewProductFragment novoProduto = new NewProductFragment();
+                    managerFragment(novoProduto, "SEM_LISTA");
                     return true;
                 case R.id.navigation_compras:
                     SemComprasTextoFragment semCompras = new SemComprasTextoFragment();

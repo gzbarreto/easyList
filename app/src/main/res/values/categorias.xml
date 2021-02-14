@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_categorias">
+        <item>Açougue</item>
+        <item>Feira</item>
+        <item>Padaria</item>
+        <item>Mercearia</item>
+        <item>Limpeza</item>
+        <item>Higiene</item>
+        <item>Pet</item>
+    </string-array>
+</resources>
